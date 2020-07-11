@@ -1,0 +1,25 @@
+body {
+	background-color: #fafafa;
+}
+
+#textareas {
+	display: flex;
+	justify-content: center;
+	align-content: space-around;
+	flex-wrap: wrap;
+}
+
+textarea {
+	resize: none;
+	margin: 0.5em;
+	flex-grow: 1;
+	min-width: 20em;
+	max-width: 40em;
+	height: 14em;
+	padding: 1em;
+}
+
+.txt {
+	text-align: center;
+	margin: 0.5em;
+}
